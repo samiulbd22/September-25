@@ -167,7 +167,7 @@ const members = {
         name:"Asaduzzaman Ovi",
         // join:"new" 01/02/25,
         // pre-previous month list
-        post_payable        :4499,
+        post_payable        :3999,
         previous_paid       :5500,
         previous_dining_cost:2754,
         payment             :undefined,
@@ -847,6 +847,7 @@ function sumTotal(a){
     }
     return sum;
 }
+
 
 
 
