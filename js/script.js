@@ -113,9 +113,9 @@ const members = {
         payment             :{"10/09/25-Cash":4000},
         // running month{"04/08/25-Cash":4550}
         stay_cost       :2300,
-        garage_cost     :4000,
+        garage_cost     :0,
         running_payable :3144,
-        running_paid    :0,
+        running_paid    :4000,
         running_meal    :13,
         // method calling
         preMonth,
@@ -153,9 +153,9 @@ const members = {
         payment             :{"10/09/25-Cash":4000},
         // running month
         stay_cost       :3250,
-        garage_cost     :4000,
+        garage_cost     :0,
         running_payable :4395,
-        running_paid    :0,
+        running_paid    :4000,
         running_meal    :22,
         // method calling
         preMonth,
@@ -847,6 +847,7 @@ function sumTotal(a){
     }
     return sum;
 }
+
 
 
 
